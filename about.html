@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <title>Alex Coffey Portfolio Website</title>
+
+    <!-- Normalize Browser and import FA -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+      integrity="sha512-ymdTQyUk0UfVv71LHB/INBdluI7qg0WKX5Wy9DZNsYcliOVveSy42TBPcgbhm/RSsIHLj+3YlAfDL+/WgBMaIA=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css"
+      integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <!-- Header -->
+
+  <body>
+    <section class="intro-background">
+      <header class="header">
+        <div class="logo">
+          <img src="./images/Profile Pics/bitmoji_mountain.png" alt="" />
+        </div>
+        <h4 class="page__title"> About Me</h4>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="home.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="./Projects/projects.html" class="nav__link">My Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">About me</a>
+            </li>
+            <li class="nav__item">
+              <a href="contacts.html" class="nav__link">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Introduction -->
+      <section class="intro-background">
+        <section class="intro" id="home">
+          <h1 class="section__title section__title--intro">
+            I'm <strong>Alex Coffey</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle--intro">
+            Quality Engineer/Programmer
+          </p>
+          <img
+            src="./images/Profile Pics/image1_alpha.png"
+            alt="Bitmoji wave"
+            class="intro__image"
+          />
+        </section>
+      </section>
+    </section>
+    
+    <!-- About Me -->
+
+    <section class="about-me" id="services">
+      <h2 class="section__title section__title--about">About Me</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Education</h3>
+          <p>
+            <h5>University of Connecticut, Storrs, CT</h5>
+            <ul>
+              <li>Major: Materials Science & Engineering</li>
+              <li>Minor: Mathematics</li>
+            </ul>
+            <h5>Boy Scouts</h5>
+            <ul>
+              <li>Eagle Scout</li>
+              <li>36 merit badges</li>
+              <li>All 3 Eagle Palms</li>
+            </ul>
+          </p>
+        </div>
+        <div class="service">
+          <h3>Work Experience</h3>
+          <p>
+            <h5>Callaway Golf: Quality Engineer</h5>
+            <ul>
+              <li>Calibrate testing machines (Archimedes, Compression, CoR)</li>
+              <li>Program Excel Templates to determine passing of failing batches based of standard deviation</li>
+              <li>Perform studies on differences between technicians and machines</li>
+              <li>Improve testing procedures to ensure higher quality data collection and improved work flow</li>
+            </ul>
+            <h5>Golf: Quality Engineering Intern</h5>
+            <ul>
+              <li>Performed quality test on golf ball rubber cores, mantles, and ceramic finished balls</li>
+              <li>Tests include Size, Weight, Archimedes, Compression, Coefficient of Resilience, Durability, X-Ray, and Concentricity. </li>
+            </ul>
+          </p>
+        </div>
+        <div class="service">
+          <h3>Skills</h3>
+          <p>
+            <ul>
+              <li>Computer literate, with software proficiency covering a variety of applications including the Microsoft Office suite, MiniTab, and Global Shop ERP System</li>
+              <li>Experienced in 3D modeling within CADD and Solid Works</li>
+              <li>Experienced in mechanical testing simulations utilizing ANSYS</li>
+              <li>MatLab, Python, VBA, JavaScript, HTML5, and CSS programming</li>
+              <li>Effective time management and organization</li>
+              <li>Mathematics, Thermodynamics, Characterization, and Failure Analysis, Metal and Polymer Processing knowledge</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <a href="./images/Alex Coffey Resume.pdf" target="blank" class="btn">Resumé</a>
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <ul class="email">
+        <a 
+          href="mailto:alexcoffey24@gmail.com" 
+          class="footer__link"
+          ></i
+        >alexcoffey24@gmail.com</a>
+      </ul>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.youtube.com/channel/UCDxmRAG97l_nUTNLt1VQGaQ" 
+            target="_blank"
+            class="social-list__link"
+            ><i class="fab fa-youtube-square"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/AlexCoffey24" 
+          target='_blank' 
+          class="social-list__link"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://linkedin.com/in/alex-coffey-362904137" 
+            target="_blank"
+            class="social-list__link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+      </ul>
+      <button class="resume-btn">
+        Resumé
+        <div class="button__horizontal"></div>
+        <div class="button__vertical"></div>
+      </button>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
